@@ -17,4 +17,8 @@
 我在官网下载的版本是2.4.0，java环境用jdk1.8的，解压到D盘，启动bin文件夹的elasticsearch.bat
 
 # 如何使用
-创建索引：localhost:9001
+创建索引,创建一个woodytest01索引：localhost:9001:/elastic/api/createIndices
+创建配置属性索引,创建一个woodytest01索引：localhost:9001:/elastic/api/createIndicesSetting
+插入或修改一条索引：localhost:9001:/elastic/api/insertRecords
+获取一条索引：localhost:9001:/elastic/api/getIndice
+根据条件查询索引：localhost:9001:/elastic/api/queryIndices
