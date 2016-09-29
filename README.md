@@ -18,7 +18,12 @@
 
 # 如何使用
 创建索引,创建一个woodytest01索引：localhost:9001:/elastic/api/createIndices
+
 创建配置属性索引,创建一个woodytest01索引：localhost:9001:/elastic/api/createIndicesSetting
+
 插入或修改一条索引：localhost:9001:/elastic/api/insertRecords
+
 获取一条索引：localhost:9001:/elastic/api/getIndice
+
 根据条件查询索引：localhost:9001:/elastic/api/queryIndices
+
